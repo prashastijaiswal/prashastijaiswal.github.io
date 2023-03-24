@@ -1,13 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="flex items-center justify-between px-4 py-4">
+
+        <div class="">
+            <img class="absolute top-2 h-10 w-10" src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" alt="">
+            <h1 class="ml-12 text-gray-700 ">INDIA.Bay</h1>
+        </div>
+        <div class="flex">
+
+            <div class="px-10 items-center hidden sm:flex">
+                <AiOutlineClockCircle size={20} class="mr-2 text-purple-800" />
+                <p>9AM-5PM</p>
+            </div>
+            <div class=" px-10 items-center hidden sm:flex">
+                <AiFillPhone size={30} class="pr-2 text-purple-800" />
+                <p>+91 890-456-3432</p>
+            </div>
+            <button>Get a free Quote</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="w-full min-h-[50px] absolute z-10 flex justify-between item-center text-white bg-gray-700/80">
+        <ul class="hidden px-4 py-4 sm:flex">
+            <li>
+                <a href="/" class="px-4">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="/" class="px-4">
+                    Gallery
+                </a>
+            </li>
+            <li>
+                <a href="/" class="px-4">
+                    Deals
+                </a>
+            </li>
+            <li>
+                <a href="/" class="px-4">
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <div class=" flex py-4 w-52 justify-between pr-4">
+
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+                <g data-name="Brand Logos">
+                    <path fill="#fff"
+                        d="M12.00039,6.86511A5.13489,5.13489,0,1,0,17.13528,12,5.13479,5.13479,0,0,0,12.00039,6.86511Zm0,8.46846A3.3336,3.3336,0,1,1,15.334,12,3.33317,3.33317,0,0,1,12.00039,15.33357Z">
+                    </path>
+                    <path fill="#fff"
+                        d="M21.93985,7.87719a7.33258,7.33258,0,0,0-.46447-2.42726,4.918,4.918,0,0,0-1.15346-1.77146A4.89358,4.89358,0,0,0,18.55129,2.525,7.32278,7.32278,0,0,0,16.124,2.06054C15.05775,2.012,14.7169,2,12.00122,2s-3.05681.01126-4.12365.06054A7.33317,7.33317,0,0,0,5.45032,2.525,4.90522,4.90522,0,0,0,3.67886,3.67847a4.88551,4.88551,0,0,0-1.1534,1.77146A7.33341,7.33341,0,0,0,2.061,7.87719C2.01171,8.94341,2.00039,9.28432,2.00039,12s.01132,3.05653.06059,4.12276a7.33352,7.33352,0,0,0,.46448,2.42731,4.888,4.888,0,0,0,1.1534,1.77146,4.9169,4.9169,0,0,0,1.77146,1.1534,7.33849,7.33849,0,0,0,2.42725.46448C8.94441,21.9879,9.28471,22,12.00039,22s3.05658-.01132,4.12281-.06059a7.33339,7.33339,0,0,0,2.42726-.46448,5.11251,5.11251,0,0,0,2.92492-2.92486,7.316,7.316,0,0,0,.46447-2.42731c.0485-1.067.05976-1.40708.05976-4.12276S21.98835,8.94341,21.93985,7.87719Zm-1.799,8.16406a5.54872,5.54872,0,0,1-.344,1.85708,3.31133,3.31133,0,0,1-1.89825,1.89741,5.52231,5.52231,0,0,1-1.85708.344c-1.05408.04844-1.37068.05815-4.04119.05815s-2.98623-.00971-4.04-.05815a5.5263,5.5263,0,0,1-1.85708-.344,3.10771,3.10771,0,0,1-1.15024-.748,3.085,3.085,0,0,1-.748-1.1494,5.52134,5.52134,0,0,1-.344-1.85708c-.0485-1.05408-.05815-1.37068-.05815-4.04119s.01049-2.98623.05815-4.0412a5.56308,5.56308,0,0,1,.344-1.857,3.1074,3.1074,0,0,1,.748-1.15024,3.08175,3.08175,0,0,1,1.15024-.748,5.52271,5.52271,0,0,1,1.85708-.344c1.05407-.04849,1.37068-.05815,4.04-.05815s2.98623.01049,4.04119.05815a5.5635,5.5635,0,0,1,1.85708.344,3.30957,3.30957,0,0,1,1.89825,1.89825,5.52254,5.52254,0,0,1,.344,1.857c.04849,1.055.05815,1.37074.05815,4.0412S20.18936,14.98628,20.14087,16.04125Z">
+                    </path>
+                    <path fill="#fff" d="M17.339,5.462h-.00044a1.19979,1.19979,0,1,0,.00044,0Z"></path>
+                </g>
+            </svg>
+
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="facebook">
+                <path fill="#fff"
+                    d="M13.355 22v-9.123h3.062l.459-3.555h-3.52v-2.27c0-1.03.285-1.731 1.761-1.731L17 5.32V2.14A25.233 25.233 0 0 0 14.257 2c-2.715 0-4.573 1.657-4.573 4.7v2.622h-3.07v3.555h3.07V22h3.671Z"
+                    data-name="Brand Logos"></path>
+            </svg>
+
+
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                viewBox="0 0 24 24" id="whatsapp">
+                <path fill="#fff"
+                    d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4">
+                </path>
+            </svg>
+
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="twitter">
+                <path fill="#fff"
+                    d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z">
+                </path>
+            </svg>
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+    <div>
+        <div class="w-full h-[60vh]">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/170123102557-beautiful-india-valley-of-flowers-flickr-alosh-bennett-4951216953.jpg?q=w_1900,h_1069,x_0,y_0,c_fill/w_1280"
+                alt="/" class="object-cover w-full h-full" />
+        </div>
+        <div class="max-w-[1140px] m-auto ">
+            <div
+                class=" pb-8 backdrop-blur-sm absolute top-[20%] w-full md:-[50%] max-w-[600px]  flex flex-col text-white p-3">
+                <h1 class="py-2 text-5xl text-gray-600 ">Explore India</h1>
+                <h2 class="py-4 text-4xl italic text-gray-500">With INDIA.bay</h2>
+                <p class="">Experience the vibrant culture, rich history, and stunning landscapes of India. Explore
+                    ancient forts, majestic temples, and bustling markets while indulging in delicious cuisine and warm
+                    hospitality</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class=' max-w-[1140px] m-auto w-full md:flex mt-[-60px] justify-around'>
+
+        <div class='   relative p-4'>
+            <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl'>
+                Jaipur</h1>
+            <img class=' rounded-xl relative object-cover h-56 border-4 border-white w-76 drop-shadow-2xl '
+                src="https://media.istockphoto.com/id/482557081/photo/hawa-mahal-jaipur-india.jpg?b=1&s=612x612&w=0&k=20&c=HjPjn4J5BMwpWEAgLQVT9mh3DpcnA5F_xgbJq4fihX8="
+                alt="" />
+        </div>
+        <div class='relative p-4'>
+            <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl '>
+                Amritsar</h1>
+            <img class='  rounded-xl  relative object-cover h-56 border-4 border-white w-76 drop-shadow-2xl'
+                src="https://images.pexels.com/photos/5458388/pexels-photo-5458388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" />
+        </div>
+        <div class='relative p-4'>
+            <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl  '>
+                Delhi</h1>
+            <img class=' rounded-xl relative object-cover h-56 border-4 border-white w-76 drop-shadow-2xl'
+                src="https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" />
+        </div>
+    </div>
+
+    <div id="deals" class="max-w-[1140px] m-auto w-full p-2">
+        <form action="/" class="w-full p-4 lg:flex lg:justify-between">
+            <div class="flex flex-col py-2 my-2">
+                <label>Destination</label>
+                <select class="lg:w-[300px] md:w-full border rounded-md p-2 ">
+                    <option value="">Banglore</option>
+                    <option value="">Delhi</option>
+                    <option value="">Goa</option>
+                    <option value="">Maldives</option>
+                </select>
+            </div>
+            <div class="flex w-full">
+                <div class="flex flex-col w-full lg:max-w-[250px] my-2 p-2">
+                    <label>Check-In</label>
+                    <input type="Date" class="p-2 border rounded-md" />
+                </div>
+                <div class="flex flex-col w-full lg:max-w-[250px] my-2 p-2">
+                    <label>Check-Out</label>
+                    <input type="Date" class="p-2 border rounded-md" />
+                </div>
+                <div class="flex-col hidden w-full p-2 my-2 md:flex">
+                    <label>Search</label>
+                    <button class="w-full py-2 text-white rounded-md bg-gradient-to-r from-purple-500 to-blue-400">
+                        Rates & Availibilties
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="gallery" class="max-w-[1140px] m-auto w-full py-4 ">
+        <h2 class="pt-0 pb-5 text-2xl text-center text-gray-700">Galley</h2>
+        <div class="grid gap-4 sm:grid-cols-5">
+            <div>
+                <img class=" shadow-2xl rounded-xl object-cover h-40 w-52"
+                    src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&h=768&q=80"
+                    alt="" />
+            </div>
+            <div>
+                <img class=" shadow-2xl rounded-xl object-cover h-40 w-52"
+                    src="https://images.unsplash.com/photo-1547707188-cdbffa0bc270?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&q=80"
+                    alt="" />
+            </div>
+            <div>
+                <img class=" shadow-2xl rounded-xl object-cover h-40 w-52"
+                    src="https://images.unsplash.com/photo-1545126178-862cdb469409?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&h=768q=80"
+                    alt="" />
+            </div>
+            <div>
+                <img class="object-cover h-40 w-52 shadow-2xl rounded-xl"
+                    src="https://images.unsplash.com/photo-1609609830354-8f615d61b9c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&h=768q=80"
+                    alt="" />
+            </div>
+            <div>
+                <img class="object-cover h-40 w-52 shadow-2xl rounded-xl"
+                    src="https://images.unsplash.com/photo-1571536802807-30451e3955d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&h=768q=80"
+                    alt="" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="rounded-lg shadow m-4 bg-gray-800">
+        <div class="w-full mx-auto container md:p-6 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#"
+                    class="hover:underline">INDIA.bay ™</a>. All Rights Reserved.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+
+</body>
+
 </html>
