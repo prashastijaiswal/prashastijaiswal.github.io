@@ -8,25 +8,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gradient-to-t from-purple-200 via-purple-200 to-purple-500">
 
     <div class="flex items-center justify-between px-4 py-4">
 
         <div class="">
             <img class="absolute top-2 h-10 w-10" src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" alt="">
-            <h1 class="ml-12 text-gray-700 ">INDIA.Bay</h1>
+            <h1 class="ml-12 text-white text-2xl ">INDIA.Bay</h1>
         </div>
         <div class="flex">
 
             <div class="px-10 items-center hidden sm:flex">
-                <AiOutlineClockCircle size={20} class="mr-2 text-purple-800" />
-                <p>9AM-5PM</p>
+                <AiOutlineClockCircle size={20} class="mr-2 text-white/80" />
+                <p class="text-white/80">9AM-5PM</p>
             </div>
             <div class=" px-10 items-center hidden sm:flex">
                 <AiFillPhone size={30} class="pr-2 text-purple-800" />
-                <p>+91 890-456-3432</p>
+                <p class="text-white text-xl">+91 890-456-3432</p>
             </div>
-            <button>Get a free Quote</button>
+            <button class="text-purple-700 bg-white  py-1 px-7 rounded-full">Get a free Quote</button>
 
         </div>
 
@@ -99,9 +99,10 @@
 
     </div>
     <div>
-        <div class="w-full h-[60vh]">
+        <div class="w-full h-[60vh] ">
             <img src="https://media.cnn.com/api/v1/images/stellar/prod/170123102557-beautiful-india-valley-of-flowers-flickr-alosh-bennett-4951216953.jpg?q=w_1900,h_1069,x_0,y_0,c_fill/w_1280"
-                alt="/" class="object-cover w-full h-full" />
+                alt="/" class="object-cover w-full h-full  shadow-2xlc
+                " />
         </div>
         <div class="max-w-[1140px] m-auto ">
             <div
@@ -128,15 +129,14 @@
                 alt="" />
         </div>
         <div class='relative p-4 hover:scale-110 transition ease-in-out'>
-            <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl '>
-                Amritsar</h1>
+            <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl '><a href="amritsar.html">Amritsar</a></h1>
             <img class='  rounded-xl  relative object-cover h-56 border-4 border-white w-76 drop-shadow-2xl'
                 src="https://images.pexels.com/photos/5458388/pexels-photo-5458388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="" />
         </div>
         <div class='relative p-4 hover:scale-110 transition ease-in-out'>
             <h1 class='absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl  '>
-                Delhi</h1>
+                <a href="delhi.html">Delhi</a></h1>
             <img class=' rounded-xl relative object-cover h-56 border-4 border-white w-76 drop-shadow-2xl'
                 src="https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="" />
