@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Clock</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="clock_style.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div class="left">
+      <div class="region">
+        <button class="country_button">India</button>
+
+        <!-- <div id="dateid" class="date">date</div>       -->
+      </div>
+
+      <div class="main1">
+        <div class="hour time">00</div>
+        <div class="dot">|</div>
+        <div class="min time">00</div>
+        <div class="dot2">|</div>
+        <div class="sec time">00</div>
+      </div>
+
+
+      <div class="weather">
+
+       
+
+        <div>
+          <button id="city">Bangalore,</button> <button id="state">Karnatka</button>
+        </div>
+
+        <div id="temperature">
+          <div id="temp_text">
+          30 &#8451 rainy
+          </div>
+            <img 
+            class="rainy"
+            src="https://i.pinimg.com/originals/6c/ca/21/6cca2105bc742f38dfaa713a3f4276bf.gif" alt="">
+            <!-- https://i.pinimg.com/originals/0c/3b/fe/0c3bfed41251c7fb356dfb99b7016163.gif -->
+          </div>
+
+      </div>
+
+    </div>
+
+
+    <video
+        class="clock_video"
+        autoplay
+        muted
+        loop
+        play
+        inline
+        src="https://v.pinimg.com/videos/mc/720p/67/87/a4/6787a4b063eb631be0ff3fa814270fe8.mp4"
+      ></video>
+    </div>
+
+    <!-- <audio controls autoplay muted>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg"> -->
+    <!-- </audio> -->
+  </body>
+  <script src="clock_script.js"></script>
+</html>
